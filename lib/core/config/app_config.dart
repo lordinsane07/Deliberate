@@ -1,11 +1,6 @@
 class AppConfig {
-  // API
-  static const String baseUrl = 'http://localhost:5000';
-
-  // Network
-  static const int connectTimeoutMs = 15000;
-  static const int receiveTimeoutMs = 15000;
-
-  // App
-  static const String appName = 'Asynchronous Debate';
+  static const String appName = 'Deliberate';
+  static const bool isDebug = true;
+  // TODO: Replace with actual backend URL
+  static const String baseUrl = 'http://10.0.2.2:5000/api/v1';
 }
